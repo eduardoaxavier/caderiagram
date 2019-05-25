@@ -1,0 +1,139 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #A239CA;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    max-width: 85%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #E7DFDD;
+    font-family: 'Montserrat', sans-serif;
+}
+#logo{
+    width: 51;
+    height: 51;
+    margin-top: 0.2%;
+    margin-left: 77.5%;
+}
+
+#plogo{
+    margin-top: 0.6%;
+    margin-left: 1%;
+    color: #0E0B16;
+}
+.usero{
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.post{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #0E0B16;
+    width: 626px;
+    height: 417px;
+}
+.z-depth-2{-webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3)}
+
+.ftperf{
+  height: 2rem;
+  width: 4rem;
+  border: #0E0B16 solid 1px;
+}
+.ftn{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.6%;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.button-like {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    padding: 1rem;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    color: #8a8a8a;
+    transition: all ease 0.4s;
+    margin-top: 0.6%;
+  }
+  #share1:hover{
+    color: #A239CA;
+  }
+  #share2:hover{
+    color: #A239CA;
+  }
+  
+  .button-like .fa,
+  .button-like span {
+    transition: all ease 0.4s;
+  }
+  
+  .button-like:focus .fa,
+  .button-like:focus span {
+    color: #8a8a8a;
+  }
+  
+  .button-like:hover {
+    border-color: #A239CA;
+  }
+  
+  .button-like:hover .fa,
+  .button-like:hover span {
+    color: #A239CA;
+  }
+  
+  .barra{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+  }
+  .contagem{
+    margin-top: 2%;
+    color: #A239CA;
+  }
+  .posttd{
+    background-color: rgb(223, 211, 207);
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .coments{
+    margin-left: 8%;
+  }
+  #balao{
+    margin-left: 8%;
+  }
+  #balao:hover{
+    color: #A239CA;
+  }
+  #balao1{
+    margin-left: 8%;
+  }
+  #balao1:hover{
+    color: #A239CA;
+  }
+  .coments{
+    background-color: #E7DFDD;
+  }
+  #titulo{
+    background-color: rgb(223, 211, 207);
+  }
+  #titulo1{
+    background-color: rgb(223, 211, 207);
+  }
+  footer{
+     background-color: #A239CA;
+     height: 5%;
+     width: 100%;
+  }
